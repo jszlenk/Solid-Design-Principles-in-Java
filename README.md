@@ -1,7 +1,7 @@
 # Solid Design Principles in Java
 ![Solid Design ](https://img.shields.io/badge/Solid_Design-Principles--in--Java-green.svg?longCache=true&style=for-the-badge)
 
-**[Polskie tłumaczenie]()**
+**[Polskie tłumaczenie](https://github.com/jszlenk/Solid-Design-Principles-in-Java/blob/master/docs/READMEPL.md)**
 
 
 **SOLID is a collection of important programming practices that were developed by Robert C. Martin.**
@@ -31,3 +31,9 @@ The principle says not to create functionality until it is actually needed. This
 Analysis of the written code and the desire to improve it are always key in software writing.
 
 When writing several classes with similar properties, we may encounter similar problems. This is a sign that the code inside these classes is common and it may indicate that it should be separated into another class that will deal with repetitive tasks in one place. Thanks to this operation, both classes will use the same code, and thus, the probability of error will drop.
+
+### KISS - Keep It Simple, Stupid!
+
+This rule is often mentioned when discussing architecture or details of building projects. Its essence is striving to maintain an elegant and transparent structure, without adding unnecessary elements.
+
+**[KISS na Wiki](https://en.wikipedia.org/wiki/KISS_principle)**

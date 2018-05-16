@@ -36,9 +36,20 @@ Analiza napisanego kodu i chęć polepszania go są zawsze kluczowe w pisaniu op
 
 Pisząc kilka klas o podobnych właściwościach, możemy napotkać na podobne problemy. Jest to znak, że kod wewnątrz tych klas jest wspólny i może to świadczyć o tym, że powinien zostać wydzielony do innej klasy, która zajmie się powtarzalnymi zadaniami w jednym miejscu. Dzięki takiej operacji, obie klasy będą korzystać z tego samego kodu, a co za tym idzie, prawdopodobieństwo wystąpienia błędu spadnie.
 
+**[DRY na Wiki](https://pl.wikipedia.org/wiki/DRY)**
+
+### KISS
+
+Nie kombinuj głuptasie!
+
+Reguła ta jest często wspominana przy dyskusji architektury lub szczegółów budowy projektów. Jej istotą jest dążenie do utrzymania eleganckiej i przejrzystej struktury, bez dodawania niepotrzebnych elementów.
+
+**[KISS na Wiki](https://pl.wikipedia.org/wiki/KISS_(regu%C5%82a))**
+
 
 ## Słownik
 
 #### DTO - Data Transfer Object
 
 Jest to obiekt, który wykorzystuje się do przenoszenia danych na oraz z aplikacji. Pisząc kod, możesz spotkać się z sytuacją, w której chciałbyś zwrócić w metodzie więcej niż jedną rzecz jednocześnie. Np. obiekt User i informację o tym, czy udało mu się wypożyczyć np. jakiś pojazd. W związku z tym, że nie możemy zwrócić kilku obiektów jednocześnie, wykorzystujemy wtedy DTO - obiekt zawierający dane, które chcemy przekazać. Dzięki temu, zwracamy jedynie DTO, z którego później możemy wyciągnąć dane, które nas interesują.
+
