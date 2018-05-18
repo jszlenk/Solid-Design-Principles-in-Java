@@ -4,6 +4,8 @@
 
 ##### SOLID to zbiór ważnych praktyk programistycznych, które zostały opracowane przez Roberta C. Martina.
 
+**[Solid na Wiki](https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe))**
+
 SOLID składa się z 5 praktyk kodowania programów:
 
 1. SRP - Zasada jedej odpowiedzialności
@@ -11,8 +13,6 @@ SOLID składa się z 5 praktyk kodowania programów:
 3. LSP - Zasada podstawienia Liskov
 4. ISP - Zasada segregacji interfejsów
 5. DIP - Zasada odwrócenia zależności
-
-**[Solid na Wiki](https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe))**
 
 ### SRP - Single responsibility principle
 

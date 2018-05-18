@@ -36,4 +36,4 @@ When writing several classes with similar properties, we may encounter similar p
 
 This rule is often mentioned when discussing architecture or details of building projects. Its essence is striving to maintain an elegant and transparent structure, without adding unnecessary elements.
 
-**[KISS na Wiki](https://en.wikipedia.org/wiki/KISS_principle)**
+**[KISS on Wiki](https://en.wikipedia.org/wiki/KISS_principle)**
