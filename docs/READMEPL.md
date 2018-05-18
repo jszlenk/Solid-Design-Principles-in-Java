@@ -8,14 +8,14 @@
 
 SOLID składa się z 5 praktyk kodowania programów:
 
-1. SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)
-2. OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)
+1. **SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)**
+2. **OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)**
 3. LSP - Zasada podstawienia Liskov
 4. ISP - Zasada segregacji interfejsów
 5. DIP - Zasada odwrócenia zależności
 
 ### SRP - Single responsibility principle
-**[Zasada jednej odpowiedzialności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/SPR)**
+#### [Zasada jednej odpowiedzialności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/SPR)
 
 SRP - mówi on o tym, że każda metoda/klasa powinna odpowiadać za jedną konkretną czynność. Wkładanie wszystkiego do jednej metody nie spełnia podstawowych założeń obiektowości, ale również utrudnia czytanie, naprawianie czy rozszerzanie programów.
 
