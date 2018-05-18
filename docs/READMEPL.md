@@ -8,8 +8,8 @@
 
 SOLID składa się z 5 praktyk kodowania programów:
 
-1. **SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)**
-2. **OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)**
+1. SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)
+2. OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)
 3. LSP - Zasada podstawienia Liskov
 4. ISP - Zasada segregacji interfejsów
 5. DIP - Zasada odwrócenia zależności
