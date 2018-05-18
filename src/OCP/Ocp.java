@@ -9,15 +9,16 @@ public class Ocp {
         Product house = new Product("House", Color.BLUE, Size.LARGE);
 
         List<Product> products = List.of(apple, tree, house);
-
         ImplFilter implFilter = new ImplFilter();
+
         implFilter.filter(products, new ColorSpecification(Color.GREEN))
                 .forEach(p -> System.out.println(p.name + " is green"));
 
         implFilter.filter(products, new SizeSpecification(Size.LARGE))
                 .forEach(p -> System.out.println(p.name + " is large"));
 
-        implFilter.filter(products, new AndSpecification<>(new ColorSpecification(Color.BLUE), new SizeSpecification(Size.LARGE)))
+        implFilter.filter(products,
+                new AndSpecification<>(new ColorSpecification(Color.BLUE), new SizeSpecification(Size.LARGE)))
                 .forEach(p -> System.out.println(p.name + " is large and blue"));
     }
 }
