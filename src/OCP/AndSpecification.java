@@ -8,6 +8,7 @@ public class AndSpecification<T> implements Specification<T> {
         this.second = second;
     }
 
+    @Override
     public boolean isSatisfied(T item) {
         return first.isSatisfied(item) && second.isSatisfied(item);
     }
