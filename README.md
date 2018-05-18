@@ -26,6 +26,7 @@ The OCP principle says that the classes that we create are open to extensions an
 
 The application that we create must be ready for extensions, because the systems are changing very quickly these days. Thanks to the OCP principle, we are able to repeatedly use our classes for various tasks, which promotes reusability of the code, but also makes it easy to understand.
 
+### LSP - Liskov substitution principle
 
 ### YAGNI - You ain’t gonna need it
 
