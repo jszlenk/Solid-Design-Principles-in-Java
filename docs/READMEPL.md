@@ -20,6 +20,11 @@ SRP - mówi on o tym, że każda metoda/klasa powinna odpowiadać za jedną konk
 
 Zasada ta jest mocno zauważalna, kiedy piszemy aplikację, która z czasem zaczyna się powiększać. Jest wzbogacana o nowe funkcjonalności. Wtedy chcemy skorzystać już z istniejących klas i ich możliwości. Okazuje się, jednak że klasa, która powinna robić czynność A, robi również czynność B, C i D, które nie są pożądane przez aktualnie tworzoną implementację. Wtedy powstaje problem, ponieważ nie możemy już wykorzystać danej klasy. W takiej sytuacji można uniknąć trzymając się SRP.
 
+### OCP - Zasada otwarte-zamknięte
+
+Zasada OCP mówi o tym, aby klasy, które tworzymy, były otwarte na rozszerzenia, a zamknięte na modyfikacje.
+
+Aplikacja, którą tworzymy, musi być gotowa na rozszerzenia, ponieważ systemy w dzisiejszych czasach bardzo szybko się zmieniają. Dzięki zasadzie OCP jesteśmy w stanie wielokrotnie wykorzystywać nasze klasy do różnych zadań, co sprzyja reużywalności kodu, ale również czyni go prostym do zrozumienia.
 
 ### YAGNI - You ain’t gonna need it
 

@@ -1,4 +1,4 @@
-# Solid Design Principles in Java
+# Solid Design Principles in Java 9
 ![Solid Design ](https://img.shields.io/badge/Solid_Design-Principles--in--Java-green.svg?longCache=true&style=for-the-badge)
 
 **[Polskie tłumaczenie](https://github.com/jszlenk/Solid-Design-Principles-in-Java/blob/master/docs/READMEPL.md)**
@@ -20,6 +20,13 @@ SRP - says that each method / class should be responsible for one specific activ
 
 This principle is very noticeable when we write an application that begins to grow with time. It is enriched with new functionalities. Then we want to use already existing classes and their capabilities. However, it turns out, that the class that A should do is also do B, C and D, which is not desired by the currently created implementation. Then the problem arises because we can no longer use the given class. In this situation, you can avoid sticking to the SRP.
 
+### OCP - Open/close principle
+
+The OCP principle says that the classes that we create are open to extensions and closed to modifications.
+
+The application that we create must be ready for extensions, because the systems are changing very quickly these days. Thanks to the OCP principle, we are able to repeatedly use our classes for various tasks, which promotes reusability of the code, but also makes it easy to understand.
+
+
 ### YAGNI - You ain’t gonna need it
 
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.
@@ -31,6 +38,8 @@ The principle says not to create functionality until it is actually needed. This
 Analysis of the written code and the desire to improve it are always key in software writing.
 
 When writing several classes with similar properties, we may encounter similar problems. This is a sign that the code inside these classes is common and it may indicate that it should be separated into another class that will deal with repetitive tasks in one place. Thanks to this operation, both classes will use the same code, and thus, the probability of error will drop.
+
+**[DRY on Wiki](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**
 
 ### KISS - Keep It Simple, Stupid!
 
