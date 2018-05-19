@@ -56,10 +56,17 @@ Reguła ta jest często wspominana przy dyskusji architektury lub szczegółów 
 
 **[KISS na Wiki](https://pl.wikipedia.org/wiki/KISS_(regu%C5%82a))**
 
+### SOC - Separation of Concern
+#### Separacja zagadnień<br>SoC - podział na moduły nie pokrywające się funkcjonalnością.
 
-## Słownik
+Separacja zagadnień polega na podziale programu na odrębne moduły, które pokrywają się funkcjonalnością tak mało jak to tylko możliwe. Taką budowę programu nazywamy modułową. Każdy element systemu powinien mieć swoje rozłączne i osobliwe zastosowanie. Celem SoC (Separation of Concern) jest stworzenie systemu, w którym każda część pełni znaczącą role przy zachowaniu możliwości maksymalnej adaptacji do zmian. SoC nie odnosi się tylko do architektury systemu, ale do różnych zagadnień np. do podziału aplikacji na warstwy (prezentacji, logiki biznesowej, dostępu do danych, bazy danych).
 
-#### DTO - Data Transfer Object
+**[Źródło cytatu](http://kurs.aspnetmvc.pl/Wzorce/Separation_of_concern)**
 
-Jest to obiekt, który wykorzystuje się do przenoszenia danych na oraz z aplikacji. Pisząc kod, możesz spotkać się z sytuacją, w której chciałbyś zwrócić w metodzie więcej niż jedną rzecz jednocześnie. Np. obiekt User i informację o tym, czy udało mu się wypożyczyć np. jakiś pojazd. W związku z tym, że nie możemy zwrócić kilku obiektów jednocześnie, wykorzystujemy wtedy DTO - obiekt zawierający dane, które chcemy przekazać. Dzięki temu, zwracamy jedynie DTO, z którego później możemy wyciągnąć dane, które nas interesują.
+### CQS - Command Query Separation
+#### Rozdzielanie poleceń i zapytań
 
+Jest to zasada, która mówi że każda metoda w systemie powinna być zaklasyfikowana do jednej z dwóch grup:
+
+- Command - są to metody, które zmieniają stan aplikacji i nic nie zwracają.
+- Query - są to metody, które coś zwracają, ale nie zmieniają stanu aplikacji.
