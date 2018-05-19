@@ -70,3 +70,5 @@ Jest to zasada, która mówi że każda metoda w systemie powinna być zaklasyfi
 
 - Command - są to metody, które zmieniają stan aplikacji i nic nie zwracają.
 - Query - są to metody, które coś zwracają, ale nie zmieniają stanu aplikacji.
+
+**[Źródło cytatu oraz artykuł o CQRS](https://bulldogjob.pl/articles/122-cqrs-i-event-sourcing-czyli-latwa-droga-do-skalowalnosci-naszych-systemow_)**
