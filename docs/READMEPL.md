@@ -10,7 +10,7 @@ SOLID składa się z 5 praktyk kodowania programów:
 
 1. SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)
 2. OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)
-3. LSP - Zasada podstawienia Liskov
+3. LSP - [Zasada podstawienia Liskov](#zasada-podstawienia-Liskov)
 4. ISP - Zasada segregacji interfejsów
 5. DIP - Zasada odwrócenia zależności
 
@@ -27,6 +27,11 @@ Zasada ta jest mocno zauważalna, kiedy piszemy aplikację, która z czasem zacz
 Zasada OCP mówi o tym, aby klasy, które tworzymy, były otwarte na rozszerzenia, a zamknięte na modyfikacje.
 
 Aplikacja, którą tworzymy, musi być gotowa na rozszerzenia, ponieważ systemy w dzisiejszych czasach bardzo szybko się zmieniają. Dzięki zasadzie OCP jesteśmy w stanie wielokrotnie wykorzystywać nasze klasy do różnych zadań, co sprzyja reużywalności kodu, ale również czyni go prostym do zrozumienia.
+
+### LSP - Liskov substitution principle
+#### [Zasada podstawienia Liskov](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/LSP)
+
+LSP - mówi on o tym, że funkcje, które używają wskaźników lub referencji do klas bazowych, muszą być w stanie używać również obiektów klas dziedziczących po klasach bazowych, bez dokładnej znajomości tych obiektów.
 
 ### YAGNI - You ain’t gonna need it
 #### Nie będziesz tego potrzebować
