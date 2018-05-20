@@ -30,6 +30,12 @@ The application that we create must be ready for extensions, because the systems
 
 Functions that use pointers or references to base classes must also be able to use class objects that inherit from the base classes without having a thorough knowledge of these objects.
 
+### ISP - Interface segregation principle
+
+ISP says: "Many dedicated interfaces are better than one overall".
+
+The interface should give a specific shape to the class, and the methods that must be implemented within the class should be common to all implementation classes.
+
 ### YAGNI - You ain’t gonna need it
 
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.

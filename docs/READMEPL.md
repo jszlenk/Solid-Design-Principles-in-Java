@@ -33,6 +33,13 @@ Aplikacja, którą tworzymy, musi być gotowa na rozszerzenia, ponieważ systemy
 
 LSP - mówi on o tym, że funkcje, które używają wskaźników lub referencji do klas bazowych, muszą być w stanie używać również obiektów klas dziedziczących po klasach bazowych, bez dokładnej znajomości tych obiektów.
 
+### ISP - Interface segregation principle
+#### [Zasada segregacji interfejsów](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/ISP)
+
+ISP mówi: "Wiele dedykowanych interfejsów jest lepsze niż jeden ogólny".
+
+Interfejs powinien nadawać określony kształt klasie, a metody, które muszą zostać zaimplementowane wewnątrz klasy, powinny być wspólne dla wszystkich klas implementujących.
+
 ### YAGNI - You ain’t gonna need it
 #### Nie będziesz tego potrzebować
 
