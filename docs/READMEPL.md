@@ -44,14 +44,11 @@ Interfejs powinien nadawać określony kształt klasie, a metody, które muszą 
 #### [Zasada odwrócenia zależności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/DIP)
 
 
-Zasada DIP mówi: "Wysokopoziomowe moduły nie powinny zależeć od modułów niskopoziomowych - zależności między nimi powinny wynikać z abstrakcji."
+Zasada DIP mówi: Moduły wysokiego poziomu nie powinny zależeć od modułów niskiego poziomu. <br>Obie powinny zależeć od abstrakcji - zależności między nimi powinny wynikać z abstrakcji.
 
-Moduły wysokiego poziomu nie powinny zależeć od modułów niskiego poziomu.<br> Obie powinny zależeć od abstrakcji.
+Abstrakcje nie powinny zależeć od szczegółów. Szczegóły powinny zależeć od abstrakcji.
 
-Abstrakcje nie powinny zależeć od szczegółów.<br> Szczegóły powinny zależeć od abstrakcji.
-
-Zwykle przez abstrakcję, mamy na myśli klasę abstrakcyjną albo interfejs. Zasadniczo oznacza to, że wprowadzamy pewną abstrakcję, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania.
-
+Zwykle przez abstrakcję, mamy na myśli klasę abstrakcyjną albo interfejs. Zasadniczo oznacza to, że wprowadzamy pewną abstrakcję, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania. 
 Staramy się nie wprowadzać w klasach zależności od jej mniejszych części.
 
 
