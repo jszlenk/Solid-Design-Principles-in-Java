@@ -48,6 +48,8 @@ Usually by abstraction, we mean an abstract class or interface. Essentially, thi
 
 We try not to enter into classes depending on its smaller parts.
 
+---
+
 ### YAGNI - You ain’t gonna need it
 
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.

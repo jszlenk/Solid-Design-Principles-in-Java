@@ -51,6 +51,7 @@ Abstrakcje nie powinny zależeć od szczegółów. Szczegóły powinny zależeć
 Zwykle przez abstrakcję, mamy na myśli klasę abstrakcyjną albo interfejs. Zasadniczo oznacza to, że wprowadzamy pewną abstrakcję, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania. 
 Staramy się nie wprowadzać w klasach zależności od jej mniejszych części.
 
+---
 
 ### YAGNI - You ain’t gonna need it
 #### Nie będziesz tego potrzebować
