@@ -41,7 +41,7 @@ ISP mówi: "Wiele dedykowanych interfejsów jest lepsze niż jeden ogólny".
 Interfejs powinien nadawać określony kształt klasie, a metody, które muszą zostać zaimplementowane wewnątrz klasy, powinny być wspólne dla wszystkich klas implementujących.
 
 ### DPI - Zasada odwrócenia zależności
-#### [Zasada segregacji interfejsów](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/DIP)
+#### [Zasada odwrócenia zależności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/DIP)
 
 
 Zasada DIP mówi: "Wysokopoziomowe moduły nie powinny zależeć od modułów niskopoziomowych - zależności między nimi powinny wynikać z abstrakcji."
@@ -58,9 +58,6 @@ Zwykle przez abstrakcję, mamy na myśli albo klasę abstrakcyjną, albo interfe
 Zasadniczo oznacza to, że możesz używać interfejsów i klas abstrakcyjnych zamiast konkretnych klas, ponieważ oczywiście zaletą jest to, że można zastąpić jedną implementację inną.
 
 Staramy się nie wprowadzać w klasach zależności od jej mniejszych części. Zamiast tego, wprowadzamy pewną abstrakcję, np. przez interfejs, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania.
-
-
-
 
 
 ### YAGNI - You ain’t gonna need it
