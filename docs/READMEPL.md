@@ -11,8 +11,8 @@ SOLID składa się z 5 praktyk kodowania programów:
 1. SRP - [Zasada jedej odpowiedzialności](#zasada-jednej-odpowiedzialności)
 2. OCP - [Zasada otwarte-zamknięte](#zasada-otwarte-zamknięte)
 3. LSP - [Zasada podstawienia Liskov](#zasada-podstawienia-Liskov)
-4. ISP - Zasada segregacji interfejsów
-5. DIP - Zasada odwrócenia zależności
+4. ISP - [Zasada segregacji interfejsów](#zasada-segregacji-interfejsów)
+5. DIP - [Zasada odwrócenia zależności](#zasada-odwrócenia-zależności)
 
 ### SRP - Single responsibility principle
 #### [Zasada jednej odpowiedzialności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/SPR)
@@ -39,6 +39,29 @@ LSP - mówi on o tym, że funkcje, które używają wskaźników lub referencji 
 ISP mówi: "Wiele dedykowanych interfejsów jest lepsze niż jeden ogólny".
 
 Interfejs powinien nadawać określony kształt klasie, a metody, które muszą zostać zaimplementowane wewnątrz klasy, powinny być wspólne dla wszystkich klas implementujących.
+
+### DPI - Zasada odwrócenia zależności
+#### [Zasada segregacji interfejsów](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/DIP)
+
+
+Zasada DIP mówi: "Wysokopoziomowe moduły nie powinny zależeć od modułów niskopoziomowych - zależności między nimi powinny wynikać z abstrakcji."
+
+Moduły wysokiego poziomu nie powinny zależeć od modułów niskiego poziomu
+Obie powinny zależeć od abstrakcji.
+
+Abstrakcje nie powinny zależeć od szczegółów. <br>
+Szczegóły powinny zależeć od abstrakcji.
+
+Zwykle przez abstrakcję, mamy na myśli albo klasę abstrakcyjną, albo interfejs.
+
+
+Zasadniczo oznacza to, że możesz używać interfejsów i klas abstrakcyjnych zamiast konkretnych klas, ponieważ oczywiście zaletą jest to, że można zastąpić jedną implementację inną.
+
+Staramy się nie wprowadzać w klasach zależności od jej mniejszych części. Zamiast tego, wprowadzamy pewną abstrakcję, np. przez interfejs, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania.
+
+
+
+
 
 ### YAGNI - You ain’t gonna need it
 #### Nie będziesz tego potrzebować

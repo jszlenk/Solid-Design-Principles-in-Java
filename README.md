@@ -36,6 +36,14 @@ ISP says: "Many dedicated interfaces are better than one overall".
 
 The interface should give a specific shape to the class, and the methods that must be implemented within the class should be common to all implementation classes.
 
+### DIP - Dependency inversion principle
+
+High-level modules should not depend on low-level modules.<br>
+Both should depend on abstractions.
+
+Abstractions should not depend on details.<br>
+Details should depend on abstractions.
+
 ### YAGNI - You ain’t gonna need it
 
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.
