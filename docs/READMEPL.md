@@ -46,18 +46,13 @@ Interfejs powinien nadawać określony kształt klasie, a metody, które muszą 
 
 Zasada DIP mówi: "Wysokopoziomowe moduły nie powinny zależeć od modułów niskopoziomowych - zależności między nimi powinny wynikać z abstrakcji."
 
-Moduły wysokiego poziomu nie powinny zależeć od modułów niskiego poziomu
-Obie powinny zależeć od abstrakcji.
+Moduły wysokiego poziomu nie powinny zależeć od modułów niskiego poziomu.<br> Obie powinny zależeć od abstrakcji.
 
-Abstrakcje nie powinny zależeć od szczegółów. <br>
-Szczegóły powinny zależeć od abstrakcji.
+Abstrakcje nie powinny zależeć od szczegółów.<br> Szczegóły powinny zależeć od abstrakcji.
 
-Zwykle przez abstrakcję, mamy na myśli albo klasę abstrakcyjną, albo interfejs.
+Zwykle przez abstrakcję, mamy na myśli klasę abstrakcyjną albo interfejs. Zasadniczo oznacza to, że wprowadzamy pewną abstrakcję, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania.
 
-
-Zasadniczo oznacza to, że możesz używać interfejsów i klas abstrakcyjnych zamiast konkretnych klas, ponieważ oczywiście zaletą jest to, że można zastąpić jedną implementację inną.
-
-Staramy się nie wprowadzać w klasach zależności od jej mniejszych części. Zamiast tego, wprowadzamy pewną abstrakcję, np. przez interfejs, co pozwala nam zamieniać poszczególne elementy programu innymi, bardziej odpowiednimi do konkretnego zadania.
+Staramy się nie wprowadzać w klasach zależności od jej mniejszych części.
 
 
 ### YAGNI - You ain’t gonna need it
