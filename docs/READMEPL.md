@@ -40,7 +40,7 @@ ISP mówi: "Wiele dedykowanych interfejsów jest lepsze niż jeden ogólny".
 
 Interfejs powinien nadawać określony kształt klasie, a metody, które muszą zostać zaimplementowane wewnątrz klasy, powinny być wspólne dla wszystkich klas implementujących.
 
-### DPI - Zasada odwrócenia zależności
+### DPI - Dependency inversion principle
 #### [Zasada odwrócenia zależności](https://github.com/jszlenk/Solid-Design-Principles-in-Java/tree/master/src/DIP)
 
 
